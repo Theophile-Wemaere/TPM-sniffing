@@ -62,7 +62,7 @@ After that I soldered some colored wire with female connectors to be able to use
 
 Now come the funny part : plugging the logic analyser and trying to decode the communication.
 
->[!INFO]
+>[!NOTE]
 >I first tried to use microcontrollers (ESP32, Arduino, Raspberry Pico) with existing code but none worked. I'll try to add an ESP32 code later (if I have the time).
 
 To sniff the traffic, I used a [Kingst LA2015](https://sigrok.org/wiki/Kingst_LA2016#Protocol) because this is the cheapest high-speed logic analyser I found on amazon. (I wanted at least 100MHz of sampling).
@@ -130,7 +130,7 @@ sudo mount -r -t ntfs-3g ./output/dislocker-file /mnt
 
 And like that, I can access the content of the drive.
 
->[!INFO]
+>[!NOTE]
 >I mounted the drive read only `-r` to avoid damages as the computer use hibernation mode. If you want to backdoor the drive or anything else that requiert to write on it, you can follow the advices [given here](https://askubuntu.com/questions/145902/unable-to-mount-windows-ntfs-filesystem-due-to-hibernation).
 
 ## References
