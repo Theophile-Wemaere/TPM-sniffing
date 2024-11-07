@@ -6,7 +6,7 @@ Using a TPM sniffing attack, I was able to bypass bitlocker encryption on a Thin
 ## The victim
 
 For this attack, I used my personal laptop, a [Thinkpad X380 Yoga](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad-x380-yoga/22tp2txx380). It's a kind of tablet-laptop computer, with an integrated discrete Trusted Platform Module (dTPM). 
-So of course *I had* to open it and try sniffing the TPM encryption.
+So of course *I had* to open it and try bypassing the TPM encryption.
 
 ## Finding the TPM
 
