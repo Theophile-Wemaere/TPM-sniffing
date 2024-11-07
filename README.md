@@ -12,7 +12,7 @@ So of course *I had* to open it and try sniffing the TPM encryption.
 
 This laptop is very easy to disassemble (in my opinion), because the keyboard/touchpad is plugged on the same side as the battery and everything else, so you don't have to remove the keyboard (like for other thinkpad).
 
-Once I removed the motherboard (MB) completely, I examined every chip that could ne a TPM, and one the backside of the MB, I found it :
+Once I removed the motherboard (MB) completly, I examined every chip that could ne a TPM, and one the backside of the MB, I found it :
 
 ![](img/img1.png)
 ![](img/img2.png)
@@ -54,7 +54,7 @@ After a lot of patience to make sure I don't nuke my computer, I got this :
 | ![](img/img6.png) | ![](img/img7.png) |
 (I put a lot of tape to avoid pulling on the wire and ripping the circuit)
 
-After that I soldered some colored wire with female connectors to be able to use to access the wires while the motherboard is mounted :
+After that I soldered some colored wire with female connectors to be able to access the wires while the motherboard is mounted :
 
 ![](img/img8.png)
 
