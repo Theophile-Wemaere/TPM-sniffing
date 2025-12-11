@@ -17,12 +17,11 @@ Once I removed the motherboard (MB) completly, I examined every chip that could 
 ![](img/img1.png)
 ![](img/img2.png)
 
-The chip is a **P68HAHB5**, from STMicroelectronics.
+The chip is a **P68HAHB4**, from STMicroelectronics.
 
-I didn't found any documentation for *this* chip precisely, but I did found almost the same reference with [this document](https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3302.pdf) :
+With a quick google search, I found the documentation for this exact chip in [this document](https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3302.pdf) :
 
 ![](img/img3.png)
-It look like the same chip, the names almost matchs... that's enough for me, let's continue
 
 One problem I encountered is that the same model of this chip (VQFN32) can be found with SPI or I²C configuration (see the datasheet). So by looking at the pin used on my laptop, I deduced that I was looking at the chip with SPI configuration :
 
